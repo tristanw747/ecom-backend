@@ -60,3 +60,7 @@ table.basic a{
 .landing-pic{
   width: 60%;
 }
+
+.login-btn-style{
+  background-color: rgb(255, 153, 153);
+}

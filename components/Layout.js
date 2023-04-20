@@ -10,7 +10,11 @@ export default function Layout({children}) {
     return (
       <div className="bg-bgGray w-screen h-screen flex items-center">
         <div className="text-center w-full">
-          <button onClick={() => signIn('google')} className="bg-white p-2 px-4 rounded-lg">Login with Google</button>
+          <h1>Welcome to Tristan's Product Admin Demo</h1>
+          <br/>
+          <h1>For demo purposes, all valid google accounts will have administrative privileges to test features</h1>
+          <h1>Google OAuth 2.0 API handles authentication and no personal data is shared</h1>
+          <button onClick={() => signIn('google')} className="bg-white p-2 px-4 rounded-lg login-btn-style">Login with Google OAuth 2.0</button>
         </div>
       </div>
     );
