@@ -150,7 +150,7 @@ function Categories({swal}) {
             onClick={addProperty}
             type="button"
             className="btn-default text-sm mb-2">
-            Add new property
+            Add new properties for the category
           </button>
           {properties.length > 0 && properties.map((property,index) => (
             <div key={index} className="flex gap-1 mb-2">
